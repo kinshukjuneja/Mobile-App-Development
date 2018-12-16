@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1053897366168",
+    "firebase_url": "https://scroggle-kj.firebaseio.com",
+    "project_id": "scroggle-kj",
+    "storage_bucket": "scroggle-kj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053897366168:android:42c8354db85720ae",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.kinshukjuneja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053897366168-r3sesud5dokohl463370j0p28epholus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Ce7_eccprx-U-UOjoxF35HUd04jcwS4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

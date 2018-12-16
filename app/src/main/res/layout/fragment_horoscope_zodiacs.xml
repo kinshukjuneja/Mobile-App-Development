@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Zodiacs"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="46sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/fhzGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fhzAriesIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            android:src="@drawable/ic_aries_big" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fhzTaurusIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_taurus_big"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            android:padding="4dp"
+            app:layout_rowWeight="1" />
+
+        <ImageButton
+            android:id="@+id/fhzGeminiIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_gemini_big" />
+
+        <ImageButton
+            android:id="@+id/fhzCancerIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_cancer_big" />
+
+        <ImageButton
+            android:id="@+id/fhzLeoIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_leo_big" />
+
+        <ImageButton
+            android:id="@+id/fhzVirgoIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_virgo_big" />
+
+        <ImageButton
+            android:id="@+id/fhzLibraIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_libra_big" />
+
+        <ImageButton
+            android:id="@+id/fhzScorpioIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_scorpio_big" />
+
+        <ImageButton
+            android:id="@+id/fhzSaggitariusIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_sagittarius_big" />
+
+        <ImageButton
+            android:id="@+id/fhzCapricornIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_capricorn_big" />
+
+        <ImageButton
+            android:id="@+id/fhzAquariusIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_aquarius_big" />
+
+        <ImageButton
+            android:id="@+id/fhzPiscesIB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_pisces_big" />
+
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

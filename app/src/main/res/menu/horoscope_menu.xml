@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuHome"
+            android:title="Home"
+            android:icon="@drawable/ic_home" />
+
+        <item
+            android:id="@+id/menuZodiacs"
+            android:title="Zodiacs"
+            android:icon="@drawable/ic_zodiacs" />
+
+        <item
+            android:id="@+id/menuUpdateProfile"
+            android:title="Update Profile"
+            android:icon="@drawable/ic_update" />
+
+        <item
+            android:id="@+id/menuSettings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings" />
+
+        <item android:title="Social">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menuFriends"
+                        android:title="Friends"
+                        android:icon="@drawable/ic_friends" />
+                    <item
+                        android:id="@+id/menuAddFriend"
+                        android:title="Add a friend"
+                        android:icon="@drawable/ic_addafriend" />
+
+                    <item
+                        android:id="@+id/menuNearMe"
+                        android:title="People near me"
+                        android:icon="@drawable/ic_nearme" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="Help">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menuAbout"
+                        android:title="About"
+                        android:icon="@drawable/ic_about" />
+                    <item
+                        android:id="@+id/menuAck"
+                        android:title="Acknowledgement"
+                        android:icon="@drawable/ic_ack" />
+                    <item
+                        android:id="@+id/menuV2"
+                        android:title="Future V2"
+                        android:icon="@drawable/ic_v2" />
+                </group>
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>

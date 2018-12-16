@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.neu.madcourse.kinshukjuneja">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AboutActivity" />
+        <activity android:name=".activity.DictionaryActivity" />
+        <activity android:name=".activity.DictionaryAcknowledgmentsActivity" />
+        <activity android:name=".activity.ScroggleMainActivity" />
+        <activity android:name=".activity.ScroggleGameActivity" />
+        <!-- android:noHistory="true" /> -->
+        <activity android:name=".activity.ScroggleAcknowledgmentsActivity" />
+        <activity android:name=".activity.ScroggleRulesActivity" />
+        <activity
+            android:name=".activity.ScroggleEndActivity"
+            android:noHistory="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".activity.ScroggleScoreboardActivity" />
+        <activity android:name=".activity.ScroggleLeaderboardActivity" />
+        <activity android:name=".activity.ScroggleChangeUsernameActivity" />
+        <activity android:name=".activity.horoscope.HoroscopeUserDetailsActivity" />
+        <activity android:name=".activity.horoscope.HoroscopeMainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

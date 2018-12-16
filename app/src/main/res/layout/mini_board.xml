@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/letter00"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="0"
+            android:text="A"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/letter01"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="1"
+            android:text="B"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/letter02"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="2"
+            android:text="C"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/letter10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="3"
+            android:text="D"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/letter11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="4"
+            android:text="E"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/letter12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="5"
+            android:text="F"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/letter20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="6"
+            android:text="G"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/letter21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="7"
+            android:text="H"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/letter22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/boxbackunselected"
+            android:fontFamily="@font/lakki_reddy"
+            android:tag="8"
+            android:text="I"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+    </android.support.v7.widget.GridLayout>
+
+</android.support.constraint.ConstraintLayout>

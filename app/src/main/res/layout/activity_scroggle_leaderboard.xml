@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context="edu.neu.madcourse.kinshukjuneja.activity.ScroggleLeaderboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Leaderboard"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#70000000"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/lbOrderBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/holo_green_dark"
+                android:checked="false"
+                android:fontFamily="@font/luckiest_guy"
+                android:onClick="onClickOrderBy"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:switchTextAppearance="@android:style/TextAppearance.SearchResult.Title"
+                android:text="Order By"
+                android:textAllCaps="false"
+                android:textAppearance="@android:style/TextAppearance.Material.Small"
+                android:textColor="@color/colorPrimary"
+                android:textColorHighlight="@color/design_default_color_primary"
+                android:textColorLink="@color/holo_green_dark"
+                android:textOff="Total Score"
+                android:textOn="Highest Word"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/lbrecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

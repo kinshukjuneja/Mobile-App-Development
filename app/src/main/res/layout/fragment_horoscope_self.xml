@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/fhsContentSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/fhsButtonGrid"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:id="@+id/fhsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fhsNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="46sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fhsZodiacIV"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="4dp" />
+
+                <TextView
+                    android:id="@+id/fhsZodiacTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_condensed_bold"
+                    android:textAllCaps="true"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <android.support.design.button.MaterialButton
+                android:id="@+id/fhsSimilar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                app:backgroundTint="@android:color/transparent"
+                app:backgroundTintMode="src_over"
+                app:cornerRadius="100dp" />
+
+            <TextView
+                android:id="@+id/fhsContentTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="32dp"
+                android:fontFamily="sans-serif"
+                android:textAppearance="@style/HoroscopeBody" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/fhsLoading"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:theme="@style/Widget.AppCompat.ProgressBar"
+        android:progressDrawable="@android:drawable/ic_menu_upload" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/fhsButtonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fhsHealthB"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_health_selected"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fhsPersonalB"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            app:layout_columnWeight="1"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_life_unselected" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fhsProfessionB"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            app:layout_columnWeight="1"
+            app:layout_column="2"
+            app:layout_row="0"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_work_unselected" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fhsEmotionsB"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            app:layout_columnWeight="1"
+            app:layout_column="3"
+            app:layout_row="0"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_emotions_unselected" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fhsTravelB"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            app:layout_columnWeight="1"
+            app:layout_column="4"
+            app:layout_row="0"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_travel_unselected" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fhsLuckB"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            app:layout_columnWeight="1"
+            app:layout_column="5"
+            app:layout_row="0"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_luck_unselected" />
+
+    </android.support.v7.widget.GridLayout>
+
+</RelativeLayout>
